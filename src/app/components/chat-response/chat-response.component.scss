@@ -1,0 +1,25 @@
+.baloon-wrapper{
+    width: 100%;
+    display: flex;
+    .baloon{
+        padding: 18px;
+        width: auto;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+    
+        &.response{
+            background-color: var(--bg-secondary);
+            color: var(--text-secondary);
+           
+        }
+    
+        &.request{
+            background-color: var(--primary-color);
+            color: white;
+            align-self: flex-end;
+        }
+    }
+}
+
+
